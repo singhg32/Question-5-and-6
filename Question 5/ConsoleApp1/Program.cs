@@ -25,5 +25,5 @@
     Console.WriteLine($"{result} is the GCF of {num1} and {num2}");
 }
 
-(Task1();
+Task1();
 // the while loop was written using temp1 and temp2 so that the original numbers are not altered and can be written to the console at the end
