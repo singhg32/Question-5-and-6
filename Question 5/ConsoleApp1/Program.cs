@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
- int Task1()
+ void Task1()
 {
     Console.WriteLine("Enter a whole number");
     string number1 = Console.ReadLine();
@@ -22,8 +22,8 @@
         }
     }
     int result = temp1;
-    return (result);
+    Console.WriteLine($"{result} is the GCF of {num1} and {num2}");
 }
 
 Console.WriteLine(Task1());
-// the while loop was written using temp1 and temp2 so that the original numbers are not altered
+// the while loop was written using temp1 and temp2 so that the original numbers are not altered and can be written to the console at the end
