@@ -25,7 +25,7 @@ string binaryconversion()
             Console.WriteLine("0");
         }
     }
-    
+    list.Reverse();
     string result = string.Join("", list);
     return (result);
 }
